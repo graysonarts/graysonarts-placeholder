@@ -17,6 +17,6 @@
   },
   "scripts": {
     "build": "eleventy --serve & tailwindcss -i ./src/css/main.css -o ./_site/css/main.css --watch",
-    "build:prod": "eleventy & tailwindcss -i ./src/css/main.css -o ./_site/css/main.css --minify"
+    "build:prod": "eleventy && tailwindcss -i ./src/css/main.css -o ./_site/css/main.css --minify"
   }
 }
